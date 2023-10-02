@@ -50,6 +50,7 @@ const memoizedBlogSearch = _.memoize((blogData, query) => {
     return { filteredBlogs };
 }, (blogData, query) => JSON.stringify(blogData) + query, CACHE_TIME);
 
+// For testing purpose only, Do not use this endpoint
 app.get('/', (res) => {
     res.send('Hello World!');
 });
