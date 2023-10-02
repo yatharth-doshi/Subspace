@@ -6,10 +6,6 @@
 
    - When a GET request is made to this route, your middleware should make the provided curl request to fetch the blog data.
 
-curl --request GET \
-  --url https://intent-kit-16.hasura.app/api/rest/blogs \
-  --header 'x-hasura-admin-secret: 32qR4KmXOIpsGPQKMqEJHGJS27G5s7HdSKO3gdtQd2kv5e852SiYwWNfxkZOBuQ6'
-
 2. **Data Analysis**:
 
    - After fetching the data, use Lodash to perform the following analytics:
